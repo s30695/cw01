@@ -4,12 +4,12 @@ public static class MathHelper
 {
     public static double CalculateAverage(int[] numbers)
 {
-    double total = 0;
+    double total1 = 0;
     foreach (var num in numbers)
     {
-        total += num;
+        total1 += num;
     }
-    return total / numbers.Length;
+    return total1 / numbers.Length;
 }
 
 }
